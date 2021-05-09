@@ -23,6 +23,8 @@ Diario turmaA1 = new Diario("julia neres","A1");
 #### Criando Aluno:
 ~~~C#
 Aluno aluno = new Aluno("marco antonio");
+
+turmaA1.insertNode(aluno);
 ~~~
 
 #### Possíveis inserções sobre o aluno:
@@ -40,8 +42,6 @@ aluno.insertNovaAvalicao(8.8F);
 
 #### Saida:
 ~~~C#
-turmaA1.insertNode(aluno);
-
 turmaA1.print();
 ~~~
 ~~~
